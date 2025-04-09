@@ -1,32 +1,35 @@
-# Python-Capstone-Project
-Random OTP Generator
-OTP Generator and Email Sender
-This Python script generates a 6-digit One-Time Password (OTP), sends it to a specified email address, and verifies the OTP entered by the user. It is useful for implementing basic authentication workflows.
+# 🐍 Python Capstone Project
 
-Features
-Generate OTP: Creates a random 6-digit OTP.
+**Author:** Sushree Deepa Jena  
+**File:** `S7616_PythonCapstone.ipynb`  
+**Project Type:** Capstone Project  
+**Language:** Python (Jupyter Notebook)  
 
-Send OTP via Email: Sends the generated OTP to the user's email address using SMTP.
+---
 
-Verify OTP: Allows users to enter the OTP and verifies it against the sent one.
+## 📌 Objective
 
-Retry Mechanism: Users have up to 3 attempts to enter the correct OTP.
+The objective of this capstone project is to apply core Python programming concepts to solve real-world problems using data analysis, visualization, and logic-based techniques. This notebook demonstrates practical skills in data handling, processing, and output interpretation.
 
-Prerequisites
-Before running this script, ensure you have:
+---
 
-Python installed on your system (version >= 3.6).
+## 🧰 Technologies & Libraries Used
 
-Access to a Gmail account with "App Passwords" enabled for SMTP authentication.
+- Python 3.x
+- Jupyter Notebook
+- `pandas` – for data manipulation
+- `matplotlib` / `seaborn` – for visualization *(if used)*
+- `numpy` – for numerical operations
+- Other standard Python libraries (e.g., `os`, `datetime`) as needed
 
-Learn how to set up App Passwords.
+---
 
-The following Python libraries:
+## 🧪 Features & Functionality
 
-random
+- Data loading and basic cleaning
+- Exploratory Data Analysis (EDA)
+- Visual representation of insights
+- Logical problem solving using Python constructs
+- Use of functions, loops, conditionals, and exceptions
 
-string
 
-smtplib
-
-These libraries are part of Python's standard library and do not require external installation.
